@@ -10,52 +10,50 @@ Instagram About
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/osintgram)
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue)](https://img.shields.io/badge/Docker-Supported-blue)
 
-Osintgram is a **OSINT** tool on Instagram to collect, analyze, and run reconnaissance.
+Osintgram adalah alat **OSINT** di Instagram untuk mengumpulkan, menganalisis, dan menjalankan pengintaian.
 
-<p align="center">
-<img align="center" src=".img/carbon.png" width="900">
-</p>
 
-Disclaimer: **FOR EDUCATIONAL PURPOSE ONLY! The contributors do not assume any responsibility for the use of this tool.**
 
-Warning: It is advisable to **not** use your own/primary account when using this tool.
+Disclaimer: **KHUSUS UNTUK TUJUAN PENDIDIKAN! Kontributor tidak bertanggung jawab atas penggunaan alat ini.**
+
+Peringatan: Disarankan untuk **tidak** menggunakan akun Anda sendiri/utama saat menggunakan alat ini.
 
 ## Tools and Commands 🧰
 
-Osintgram offers an interactive shell to perform analysis on Instagram account of any users by its nickname. You can get:
+Osintgram menawarkan shell interaktif untuk melakukan analisis pada akun Instagram setiap pengguna dengan nama panggilannya. Kamu bisa mendapatkan:
 
 ```text
-- addrs           Get all registered addressed by target photos
-- captions        Get user's photos captions
-- comments        Get total comments of target's posts
-- followers       Get target followers
-- followings      Get users followed by target
-- fwersemail      Get email of target followers
-- fwingsemail     Get email of users followed by target
-- fwersnumber     Get phone number of target followers
-- fwingsnumber    Get phone number of users followed by target
-- hashtags        Get hashtags used by target
-- info            Get target info
-- likes           Get total likes of target's posts
-- mediatype       Get user's posts type (photo or video)
-- photodes        Get description of target's photos
-- photos          Download user's photos in output folder
-- propic          Download user's profile picture
-- stories         Download user's stories  
-- tagged          Get list of users tagged by target
-- wcommented      Get a list of user who commented target's photos
-- wtagged         Get a list of user who tagged target
+- addrs           Dapatkan semua alamat terdaftar dengan foto target
+- captions        Dapatkan keterangan foto pengguna
+- comments        Dapatkan total komentar dari posting target
+- followers       Dapatkan target pengikut
+- followings      Dapatkan pengguna diikuti oleh target
+- fwersemail      Dapatkan email pengikut target
+- fwingsemail     Dapatkan email pengguna diikuti oleh target
+- fwersnumber     Dapatkan nomor telepon pengikut target
+- fwingsnumber    Dapatkan nomor telepon pengguna diikuti oleh target
+- hashtags        Dapatkan hashtag yang digunakan oleh target
+- info            Dapatkan info sasaran
+- likes           Dapatkan total suka dari posting target
+- mediatype       Dapatkan jenis posting pengguna (foto atau video)
+- photodes        Dapatkan deskripsi foto target
+- photos          Unduh foto pengguna di folder keluaran
+- propic          Unduh gambar profil pengguna
+- stories         Unduh cerita pengguna
+- tagged          Dapatkan daftar pengguna yang ditandai berdasarkan target
+- wcommented      Dapatkan daftar pengguna yang mengomentari foto target
+- wtagged         Dapatkan daftar pengguna yang menandai target
 ```
 
-You can find detailed commands usage [here](doc/COMMANDS.md).
+Anda dapat menemukan penggunaan perintah terperinci [di sini](doc/COMMANDS.md).
 
-[**Latest version**](https://github.com/Datalux/Osintgram/releases/tag/1.3) |
-[Commands](doc/COMMANDS.md) |
+[**Versi terbaru**](https://github.com/Datalux/Osintgram/releases/tag/1.3) |
+[Perintah](doc/COMMANDS.md) |
 [CHANGELOG](doc/CHANGELOG.md)
 
 ## FAQ
-1. **Can I access the contents of a private profile?** No, you cannot get information on private profiles. You can only get information from a public profile or a profile you follow. The tools that claim to be successful are scams!
-2. **What is and how I can bypass the `challenge_required` error?** The `challenge_required` error means that Instagram notice a suspicious behavior on your profile, so needs to check if you are a real person or a bot. To avoid this you should follow the suggested link and complete the required operation (insert a code, confirm email, etc)
+1. **Dapatkah saya mengakses konten profil pribadi?** Tidak, Anda tidak dapat memperoleh informasi tentang profil pribadi. Anda hanya bisa mendapatkan informasi dari profil publik atau profil yang Anda ikuti. Alat yang mengklaim berhasil adalah penipuan!
+2. **Apa itu dan bagaimana saya bisa melewati kesalahan `challenge_required`?** Kesalahan `challenge_required` berarti bahwa Instagram melihat perilaku mencurigakan di profil Anda, jadi perlu memeriksa apakah Anda orang sungguhan atau bot. Untuk menghindari ini, Anda harus mengikuti tautan yang disarankan dan menyelesaikan operasi yang diperlukan (masukkan kode, konfirmasi email, dll)
 
 
 ## Installation ⚙️
@@ -169,7 +167,7 @@ and update to last version using:
 
 ## Updating ⬇️
 
-To update Osintgram with the stable release just pull the latest commit using Git.
+Untuk memperbarui Osintgram dengan rilis stabil, cukup tarik komit terbaru menggunakan Git.
 
 1. Make sure you are in the master branch running: `git checkout master`
 2. Download the latest version: `git pull origin master`
